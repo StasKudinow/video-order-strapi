@@ -11,19 +11,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "video": {
-      "type": "media",
-      "multiple": false,
-      "allowedTypes": [
-        "videos"
-      ]
+    "hero": {
+      "type": "component",
+      "component": "hero.hero",
+      "repeatable": false
     },
-    "poster": {
-      "type": "media",
-      "multiple": false,
-      "allowedTypes": [
-        "images"
-      ]
+    "video": {
+      "type": "component",
+      "component": "video.video",
+      "repeatable": false
+    },
+    "faq": {
+      "type": "component",
+      "component": "faq.item",
+      "repeatable": true
     }
   }
 }
