@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_contacts_contacts",
+  "info": {
+    "displayName": "contacts"
+  },
+  "options": {},
+  "attributes": {
+    "owner": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "telegram": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_form_request_forms",
+  "info": {
+    "displayName": "form"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "priceLabel": {
+      "type": "string",
+      "required": true
+    },
+    "priceValue": {
+      "type": "biginteger",
+      "required": true
+    },
+    "emailLabel": {
+      "type": "string",
+      "required": true
+    },
+    "consentCaption": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true
+    },
+    "buttonCaption": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

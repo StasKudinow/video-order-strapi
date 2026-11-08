@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "order_pages",
+  "info": {
+    "singularName": "order-page",
+    "pluralName": "order-pages",
+    "displayName": "Order Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "offer": {
+      "type": "component",
+      "component": "offer.offer",
+      "repeatable": false
+    },
+    "form": {
+      "type": "component",
+      "component": "form.request-form",
+      "repeatable": false
+    },
+    "successText": {
+      "type": "text",
+      "required": true
+    },
+    "errorText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -21,6 +21,10 @@
       "component": "video.video",
       "repeatable": false
     },
+    "buttonText": {
+      "type": "string",
+      "required": true
+    },
     "faq": {
       "type": "component",
       "component": "faq.item",

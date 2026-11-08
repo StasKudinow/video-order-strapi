@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_offer_offers",
+  "info": {
+    "displayName": "offer"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "details": {
+      "type": "component",
+      "component": "offer.details",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
